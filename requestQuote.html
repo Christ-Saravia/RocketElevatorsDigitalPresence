@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+
+        <p>What type of building do you own?</p>
+
+        <select class="form-control" id="building" onchange="test();">
+            <option value="select">----SELECT----</option>
+            <option value="residential">RESIDENTIAL</option>
+            <option value="commercial">COMMERCIAL</option>
+            <option value="corporatif">CORPORATIF</option>
+            <option value="hybride">HYBRIDE</option>
+        </select>
+    </div>
+
+    <div class="container">
+        <h2 id="question1"></h2>
+        <h2 id="question2"></h2>
+        <h2 id="question3"></h2>
+        
+    </div>
+    
+
+<script>
+
+
+function test(){
+    var typeBuilding = document.getElementById("building").value;
+    document.getElementById("question1").innerHTML = inputRequired[0][0]; 
+    document.getElementById("question2").innerHTML = inputRequired[0][1]; 
+    document.getElementById("question3").innerHTML = inputRequired[0][2]; 
+}
+
+var inputRequired = [
+    ["The number of apartments in the building","The number of floors contained in the building","The number of basements contained in the building"],
+    [5,4],
+    [5,3],
+    [6,2]
+];
+
+for (i = 0; i < cars.length; i++) {
+  text += cars[i] + "<br>";
+}
+
+
+
+
+
+
+</script>
+</body>
+</html>
