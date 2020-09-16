@@ -138,7 +138,7 @@
     }
     
 // Cacher les options
-        <script>
+
 $(document).ready(function () {
     $('.building_type').hide();
     
