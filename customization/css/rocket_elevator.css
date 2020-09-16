@@ -1,0 +1,258 @@
+.btn-warning {
+    color: #fff;
+    background-color: #0a629d;
+    border-color: #0a629d;
+  }
+
+.btn-warning:hover {
+    color: #fff;
+    background-color: #0a629d;
+    border-color: #0a629d;
+}
+
+.btn-default {
+    color: white;
+    background: #dc3545;
+    border-color: #dc3545;  
+}
+
+.btn-lg, .btn-group-lg > .btn {
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: 1.3rem;   
+  }
+
+  #slidetop {
+	display: block;
+	color:#888;
+	font-size:13px;
+	background-color: black;
+	z-index: 1500;
+	position: absolute;
+	top: 0; right: 0; left:0;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.tp-bullets.preview1 {
+    height: 90px;
+}
+
+.tparrows.preview1 {
+    width: 100px;
+    height: 100px;
+    background: #dc3545;
+}
+
+.tp-bullets.preview1 .bullet:hover, .tp-bullets.preview1 .bullet.selected {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    background: white !important;
+    width: 10px !important;
+    height: 10px !important;
+    border: 10px solid blue !important;
+}
+
+
+#logo {
+    border: 4px solid #dc3545;
+    height: 125px;
+    padding: 0.5rem 1rem;
+    border-radius: 2.5rem;
+}
+
+#slogan {
+    height: 100px;
+    font-style: oblique;
+}
+
+#elevator {
+    height: 500px;    
+}
+
+
+
+.btn-outline-warning{
+    color: #ffffff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+    border-radius: 0.5rem;
+}
+
+
+
+
+#topMain{
+    transition: all 1s;
+}
+
+
+
+
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    height: 250px;
+    width: 900px;
+    padding: 10% 3% 10%;
+}
+
+
+
+.slide {
+    width: 100%;
+    background-color:lightgrey;
+    padding: 5% 35% 5% 35%;
+    border-radius: 15rem 15rem 55rem 55rem;
+}
+
+
+.item {
+    font-size: 20px;
+    font-style: italic;
+    color: black;
+    text-align: center;
+}
+
+.item img {
+    width: 400px;
+}
+
+.glyphicon-chevron-left:before {
+    content: "\e071";
+    color: orange;
+}
+
+.glyphicon-chevron-right:before {
+    content: "\e075";
+    color: orange;
+}
+
+.carousel-control.left {
+    right: auto;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    background-image: -webkit-linear-gradient(left,rgba(0,0,0,.5) 0,rgba(0,0,0,.0001) 100%);
+    background-image: -o-linear-gradient(left,rgba(0,0,0,.5) 0,rgba(0,0,0,.0001) 100%);
+    background-image: -webkit-gradient(linear,left top,right top,from(rgba(0,0,0,.5)),to(rgba(0,0,0,.0001)));
+    background-image: linear-gradient(to right,rgba(0,0,0,.5) 0,rgba(0,0,0,.0001) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+    background-repeat: repeat-x;
+    background-color: indigo;
+    border-radius: 60rem 60rem 60rem 60rem;
+
+    
+}
+
+.carousel-control.right {
+    right: 0;
+    left: auto;
+    width: 60px;
+    height: 60px;
+    background-image: -webkit-linear-gradient(left,rgba(0,0,0,.0001) 0,rgba(0,0,0,.5) 100%);
+    background-image: -o-linear-gradient(left,rgba(0,0,0,.0001) 0,rgba(0,0,0,.5) 100%);
+    background-image: -webkit-gradient(linear,left top,right top,from(rgba(0,0,0,.0001)),to(rgba(0,0,0,.5)));
+    background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0,0,0,.5) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+    background-repeat: repeat-x;
+    background-color:  indigo;
+    border-radius: 60rem 60rem 60rem 60rem;
+}    
+
+
+
+.carousel-control:focus, .carousel-control:hover {
+    color: indigo;
+    text-decoration: none;
+    outline: 0;
+    filter: alpha(opacity=90);
+    opacity: .1;
+}
+
+
+#topMain.nav-pills>li.active>a {
+    color: orange;
+}
+
+
+#footer  {
+    background: linear-gradient(to bottom, #b60e1f 0%,#313131 100%);
+}
+
+#footer>.copyright {
+    background-color: #0a629d;
+    text-shadow: 1px 1px 1px white;
+    padding: 25px 0;
+    font-size: 13px;
+    display: block;
+}
+
+section.dark {
+    background-color: #0a629d !important;
+    border-bottom: rgba(255,255,255,0.1) 1px solid;
+}
+
+.testimonial cite span {
+    display: block;
+    color: white;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+div.testimonial>figure>img {
+    width: 185px;
+    height: 185px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+figure>.img-fluid {
+    width: 80%;
+    height: 275px;
+}
+
+.img-fluid {
+    margin: 0px 10px 0px 10px;
+    height: 100px;
+    width: auto;
+}
+
+
+section.dark {
+    background-image: url('../../Rocket\ Elevator\ Assets/background2.png');
+    background-color: transparent !important;
+    border-bottom: rgba(255,255,255,0.1) 1px solid;
+}
+
+
+.tp-bannertimer {
+    background:orange !important;
+    height: 3px !important;
+}
+
+
+#keynote {
+    width: 200px;
+    height: auto;
+    background-color: transparent;
+    position: relative;
+    animation-name: examples;
+    animation-duration: 4s;
+    margin-bottom: 50px;
+  }
+  
+  @keyframes examples {
+    0%   {background-color:transparent; left:0px; top:0px;}
+    25%  {background-color:transparent; left:265px; top:0px;}
+    50%  {background-color:transparent; left:265px; top:265px;}
+    75%  {background-color:transparent; left:0px; top:265px;}
+    100% {background-color:transparent; left:0px; top:0px;}
+  }
+
+
