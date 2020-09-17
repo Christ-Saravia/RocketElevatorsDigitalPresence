@@ -217,7 +217,7 @@ figure>.img-fluid {
     height: 275px;
 }
 
-.img-fluid {
+.customize {
     margin: 0px 10px 0px 10px;
     height: 100px;
     width: auto;
@@ -227,7 +227,7 @@ figure>.img-fluid {
 section.dark {
     background-image: url('../../Rocket\ Elevator\ Assets/background2.png');
     background-color: transparent !important;
-    border-bottom: rgba(255,255,255,0.1) 1px solid;
+    border-bottom: rgba(255,255,255,0.1) 5px solid;
 }
 
 
@@ -248,11 +248,11 @@ section.dark {
   }
   
   @keyframes examples {
-    0%   {background-color:transparent; left:0px; top:0px;}
-    25%  {background-color:transparent; left:265px; top:0px;}
-    50%  {background-color:transparent; left:265px; top:265px;}
-    75%  {background-color:transparent; left:0px; top:265px;}
-    100% {background-color:transparent; left:0px; top:0px;}
+    0%   {background-color:transparent; left:865px; top:0px;}
+    25%  {background-color:transparent; left:0; top:0px;}
+    50%  {background-color:transparent; left:865px; top:300px;}
+    75%  {background-color:transparent; left:865px; top:0px;}
+    100% {background-color:transparent; right:0px; top:0px;}
   }
 
 

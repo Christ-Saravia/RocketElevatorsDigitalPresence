@@ -1,11 +1,5 @@
 $(document).ready(function(){
 
-        // Drowdown options
-
-        $('.dropdown-toggle').dropdown({
-            "offset": -100,
-            "flip": false
-        });
 
         // Tooltip
         $('[data-toggle="tooltip"]').tooltip({
